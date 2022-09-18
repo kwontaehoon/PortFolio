@@ -244,13 +244,31 @@ const Project = () => {
                 <InfoBox>
                 <Swiper pagination={{clickable: true}} modules={[Pagination]}>
                     <SwiperSlide>
-                        <ImageBox><img src="images/무신사.png" alt='cafe'></img></ImageBox>
+                        <ImageBox><img src="images/tour9.png" alt='cafe'></img></ImageBox>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <ImageBox><img src="images/다음.png" alt='cafe'></img></ImageBox>
+                        <ImageBox><img src="images/tour7.png" alt='cafe'></img></ImageBox>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <ImageBox><img src="images/비쥬팝.png" alt='cafe' style={{height: '50%'}}></img></ImageBox>
+                        <ImageBox><img src="images/tour8.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/tour6.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/tour2.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/tour1.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/tour5.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/tour4.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/tour3.png" alt='cafe'></img></ImageBox>
                     </SwiperSlide>
                 </Swiper>
                 </InfoBox>
@@ -260,7 +278,7 @@ const Project = () => {
                         <p style={{fontWeight: 'bold', lineHeight: '30px'}}>
                             세 번째 프로젝트에서는 React-Native 환경에서 간단한 관광 어플을 제작했습니다.
                             React-Native 내부의 AsyncStorage와 DB(SQLite) 연결을 통해 관광지 위치에 따른 Google Maps와 검색 기능,
-                            주요 도시에 <br />  따른 날씨 앱, 좋아요 기능까지 완성도는 낮지만 가지각색으로 구현해봤습니다.
+                            주요 도시에 <br />  따른 날씨 앱, 좋아요 기능까지 가지각색으로 구현해봤습니다.
                             Android와 IOS를 동시 개발 가능한 하이브리드 (크로스플랫폼) 개발 환경에 대한 전반적인 구조를
                             이해할 수 있었습니다.
                         </p>
