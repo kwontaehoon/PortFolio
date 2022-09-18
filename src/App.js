@@ -5,7 +5,6 @@ import About from './About'
 import Skills from './Skills'
 import Project from './Project'
 import Project2 from './Project2'
-import Test from './Test'
 
 const Container = styled.div`
   width: 80%;

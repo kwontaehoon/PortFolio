@@ -121,11 +121,11 @@ const Skills = () => {
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
-                <Icon><img src="images/mui.png" alt='mui'></img></Icon>
+                <Icon><img src="images/mysql.png" alt='mysql'></img></Icon>
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
-                <Icon><img src="/images/markdown.png" alt='markdown'></img></Icon>
+                <Icon><img src="/images/mongoDB.png" alt='mongoDB'></img></Icon>
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
@@ -133,7 +133,7 @@ const Skills = () => {
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
-                <Icon><img src="/images/mysql.png" alt='mysql'></img></Icon>
+                <Icon><img src="/images/firebase.png" alt='firebase' style={{width: "100px"}}></img></Icon>
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>

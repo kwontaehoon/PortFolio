@@ -38,6 +38,7 @@ const Content = styled.div`
 `
 const Main1 = styled.div`
     display: flex;
+    margin-Top: 10px;
 `
 const Main2 = styled(Main1)``
 
@@ -82,7 +83,7 @@ const About = () => {
         </Header>
         <Intro>
             <Image>
-                <div>사진</div>
+                <img src="images/프로필.jpg" alt='node' style={{width: 180}}></img>
             </Image>
             <Content>
                 <p style={{fontWeight: 'bold', lineHeight: '30px'}}>

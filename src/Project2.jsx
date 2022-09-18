@@ -6,6 +6,7 @@ import "swiper/css/pagination"
 import { Pagination } from "swiper"
 
 const Container = styled.div`
+    padding-bottom: 20px;
 `
 const Header = styled.div`
     height: 50px;
@@ -56,23 +57,25 @@ const ContentBox = styled.div`
 
 const Project2 = () => {
 
-
+const musinsa = () => {
+    return <iframe src='./musinsa.html'></iframe>
+}
   return (
     <Container>
         <Header>그 외</Header>
         <Project1>
             <Box>
             <Swiper pagination={{clickable: true}} modules={[Pagination]}>
-                <SwiperSlide>
-                    <ImageBox><img src="images/무신사.png" alt='cafe'></img></ImageBox>
+                <SwiperSlide onClick={musinsa}>
+                    <ImageBox><img src="images/무신사.png" alt='musinsa'></img></ImageBox>
                     <ContentBox>무신사 클론페이지 입니다.</ContentBox>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <ImageBox><img src="images/다음.png" alt='cafe'></img></ImageBox>
+                    <ImageBox><img src="images/다음.png" alt='daum_cafe'></img></ImageBox>
                     <ContentBox>다음 카페 (반응형) 클론페이지 입니다.</ContentBox>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <ImageBox><img src="images/비쥬팝.png" alt='cafe' style={{height: '50%'}}></img></ImageBox>
+                    <ImageBox><img src="images/비쥬팝.png" alt='bijoupop' style={{height: '40%'}}></img></ImageBox>
                     <ContentBox>비쥬팝 클론페이지 입니다.</ContentBox>
                 </SwiperSlide>
             </Swiper>
@@ -80,12 +83,16 @@ const Project2 = () => {
             <Box>
             <Swiper pagination={{clickable: true}} modules={[Pagination]}>
                 <SwiperSlide>
-                    <ImageBox><img src="images/맛집.png" alt='cafe'></img></ImageBox>
-                    <ContentBox>다음 지도, 로드뷰, Postcode와 mySQL을 통한 경기도 맛집 api입니다. </ContentBox>
+                    <ImageBox><img src="images/맛집.png" alt='경기도 맛집'></img></ImageBox>
+                    <ContentBox>다음 지도, 로드뷰, PostCode와 MySQL을 통한 경기도 맛집 API입니다.</ContentBox>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <ImageBox><img src="images/여행경보.png" alt='cafe' style={{height: '50%'}}></img></ImageBox>
-                    <ContentBox>공공 데이터포털에서 받아온 데이터로 <br/> 만든 나라별 여행 경보 api 입니다.</ContentBox>
+                    <ImageBox><img src="images/weather_app.png" alt='weather_app'></img></ImageBox>
+                    <ContentBox>OpenWeather과 Cordova를 이용한 <br /> 날씨 APP 입니다. </ContentBox>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <ImageBox><img src="images/여행경보.png" alt='여행경보' style={{height: '50%'}}></img></ImageBox>
+                    <ContentBox>공공 데이터포털에서 받아온 데이터로 <br/> 만든 나라별 여행 경보 API 입니다.</ContentBox>
                 </SwiperSlide>
             </Swiper>
             </Box>
