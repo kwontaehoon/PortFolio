@@ -87,7 +87,7 @@ const musinsa = () => {
                     <ContentBox>다음 지도, 로드뷰, PostCode와 MySQL을 통한 경기도 맛집 API입니다.</ContentBox>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <ImageBox><img src="images/weather_app.png" alt='weather_app'></img></ImageBox>
+                    <ImageBox><img src="images/weather_app.png" alt='weather_app' style={{width: '60%', height: '80%', borderRadius: 10}}></img></ImageBox>
                     <ContentBox>OpenWeather과 Cordova를 이용한 <br /> 날씨 APP 입니다. </ContentBox>
                 </SwiperSlide>
                 <SwiperSlide>
