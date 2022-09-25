@@ -137,7 +137,7 @@ const Skills = () => {
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
-                <Icon><img src="images/php.png" alt='php'></img></Icon>
+                <Icon><img src="images/sqlite.png" alt='sqlite'></img></Icon>
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>

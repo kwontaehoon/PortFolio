@@ -83,16 +83,17 @@ const About = () => {
         </Header>
         <Intro>
             <Image>
-                <img src="images/프로필.jpg" alt='node' style={{width: 180}}></img>
+                <img src="images/프로필.jpg" alt='node' style={{width: 180, borderRadius: 20}}></img>
             </Image>
             <Content>
                 <p style={{fontWeight: 'bold', lineHeight: '30px'}}>
-                안녕하세요. <br/>
+                안녕하세요! <br/>
                 풀스택 개발자를 희망하는 권태훈입니다.
                 학교에서 전공을 통해 전반적인 프로그래밍 지식을 쌓고 <br/>
-                이젠 컴퓨터 학원에서 주도한 React 기반 풀스택과정에 참가해 팀 프로젝트로 프론트부터 백까지<br/>
-                다양한 경험을 했습니다. 학원 수료 이후, 현재 한국인지 과학협회에서 주도하는 컨소시엄 파트너십에 참가해<br/>
-                React Native 앱을 개발중입니다.
+                국비지원교육 이젠 컴퓨터 학원에서 주도한 React & Node 기반 풀스택 과정에 참가해 프론트부터 백엔드까지<br/>
+                최신 트렌드에 맞는 전문 기술을 학습했습니다. 학원 수료 이후, 현재, 한국인지 과학협회에서 주도하는 <br/> 컨소시엄 파트너십에 참가해
+                React Native를 이용한 크로스플랫폼 하이브리드 앱을 개발중이며 웹 사이트와 <br/>
+                서버를 운영해보기위해 데브옵스를 통한  CI/CD 과정을 공부하고있습니다.
                 </p>
             </Content>
         </Intro>
@@ -103,16 +104,16 @@ const About = () => {
                     <div>- 이름: 권태훈</div>
                     <div>- 생년월일: 97.07.25</div>
                     <div>- 전화번호: 010 6672 4228</div>
-                    <div>- 이메일: gju04195@naver.com</div>
+                    <div>- 이메일: gju04195@gmail.com</div>
                 </SubContent>
             </LeftBox>
             <RightBox>
                 <SubTitle><i className="fa-solid fa-pencil"></i> 자격증</SubTitle>
                 <SubContent>
-                    <div>- 정보처리기사 (21.03.07)</div>
-                    <div>- 정보처리산업기사 (19.01.03)</div>
-                    <div>- 컴퓨터활용능력 1급 (21.08.05)</div>
-                    <div>- 네트워크 관리사 2급 (18.08.17)</div>
+                    <div>- 정보처리기사 (21.03.07) 실기 준비중</div>
+                    <div>- 정보처리산업기사 (19.01.03) 합격</div>
+                    <div>- 컴퓨터활용능력 1급 (21.08.05) 실기 준비중</div>
+                    <div>- 네트워크 관리사 2급 (18.08.17) 합격</div>
                 </SubContent>
             </RightBox>
         </Main1>
