@@ -32,6 +32,15 @@ const Image = styled.div`
     justify-content: center;
     align-items: center;
 `
+const SubImage = styled.div`
+    width: 50%;
+    height: 65%;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+`
 const Content = styled.div`
     flex: 0 0 70%;
     padding: 20px;
@@ -83,7 +92,9 @@ const About = () => {
         </Header>
         <Intro>
             <Image>
-                <img src="images/프로필.jpg" alt='node' style={{width: 180, borderRadius: 20}}></img>
+                <SubImage>
+                    <img src="images/프로필.jpg" style={{width: 180}}></img>
+                </SubImage>
             </Image>
             <Content>
                 <p style={{fontWeight: 'bold', lineHeight: '30px'}}>
