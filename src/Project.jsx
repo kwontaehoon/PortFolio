@@ -235,7 +235,6 @@ const Project = () => {
                         </Skill>
                         <Address>
                             <button onClick={()=>{ window.open("https://github.com/kwontaehoon/CHK-cafe");}}>GitHub</button>
-                            <button onClick={()=>{ window.open("http://15.164.244.160:3000/");}}>Live</button>
                         </Address>
                     </Summary>
                 </InfoBox2>
@@ -298,7 +297,6 @@ const Project = () => {
                         </Skill>
                         <Address>
                             <button onClick={()=>{ window.open("https://github.com/kwontaehoon/Project");}}>GitHub</button>
-                            <button>Live</button>
                         </Address>
                     </Summary>
                 </InfoBox2>
@@ -336,7 +334,6 @@ const Project = () => {
                         </Skill>
                         <Address>
                             <button onClick={()=>{ window.open("https://github.com/kwontaehoon/Project");}}>GitHub</button>
-                            <button>Live</button>
                         </Address>
                     </Summary>
                 </InfoBox2>
