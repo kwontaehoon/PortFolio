@@ -57,24 +57,22 @@ const ContentBox = styled.div`
 
 const Project2 = () => {
 
-const musinsa = () => {
-    return <iframe src='./musinsa.html'></iframe>
-}
+
   return (
     <Container>
         <Header>그 외</Header>
         <Project1>
             <Box>
             <Swiper pagination={{clickable: true}} modules={[Pagination]}>
-                <SwiperSlide onClick={musinsa}>
+                <SwiperSlide onClick={()=>{ window.open("http://3.34.255.132/musinsa");}} style={{cursor: 'pointer'}}>
                     <ImageBox><img src="images/무신사.png" alt='musinsa'></img></ImageBox>
-                    <ContentBox>무신사 클론페이지 입니다.</ContentBox>
+                    <ContentBox>무신사 메인 클론페이지 입니다.</ContentBox>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide onClick={()=>{ window.open("http://3.34.255.132/daum");}} style={{cursor: 'pointer'}}>
                     <ImageBox><img src="images/다음.png" alt='daum_cafe'></img></ImageBox>
                     <ContentBox>다음 카페 (반응형) 클론페이지 입니다.</ContentBox>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide onClick={()=>{ window.open("http://3.34.255.132/myshop");}} style={{cursor: 'pointer'}}>
                     <ImageBox><img src="images/비쥬팝.png" alt='bijoupop' style={{height: '40%'}}></img></ImageBox>
                     <ContentBox>비쥬팝 클론페이지 입니다.</ContentBox>
                 </SwiperSlide>
