@@ -97,15 +97,15 @@ const Skills = () => {
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
-                <Icon><img src="images/java.png" alt='java'></img></Icon>
-                <SubCircle></SubCircle>
-            </Circle>
-            <Circle>
                 <Icon><img src="images/react.png" alt='react'></img></Icon>
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
                 <Icon><img src="images/react-native.png" alt='react-native'></img></Icon>
+                <SubCircle></SubCircle>
+            </Circle>
+            <Circle>
+                <Icon><img src="images/mui.png" alt='mui'></img></Icon>
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>

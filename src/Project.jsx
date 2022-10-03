@@ -167,12 +167,14 @@ const Project = () => {
                             <div>Jquery</div>
                             <div>Bootstrap</div>
                             <div>React</div>
+                            <div>Styled Component</div>
+                            <div>Material UI</div>
                             <div>AWS(EC2)</div>
                             <div>Nginx</div>
                             <div>Git</div>
                         </Skill>
                         <Address>
-                            <button onClick={()=>{ window.open("https://github.com/kwontaehoon/CHK");}}>GitHub</button>
+                            <button onClick={()=>{ window.open("https://github.com/HHeeW/CHK_Movie");}}>GitHub</button>
                             <button onClick={()=>{ window.open("http://3.39.240.168");}}>Live</button>
                         </Address>
                     </Summary>
@@ -226,15 +228,18 @@ const Project = () => {
                             <div>Jquery</div>
                             <div>Bootstrap</div>
                             <div>React</div>
+                            <div>Styled Component</div>
                             <div>Node</div>
-                            <div>Restfull API</div>
+                            <div>Restful API</div>
                             <div>MySQL</div>
                             <div>AWS(EC2, RDS)</div>
                             <div>Nginx</div>
+                            <div>PM2</div>
                             <div>Git</div>
                         </Skill>
                         <Address>
                             <button onClick={()=>{ window.open("https://github.com/kwontaehoon/CHK-cafe");}}>GitHub</button>
+                            <button onClick={()=>{ window.open("http://3.36.131.255");}}>Live</button>
                         </Address>
                     </Summary>
                 </InfoBox2>
@@ -320,7 +325,7 @@ const Project = () => {
                         </p>
                     </Content>
                     <Summary>
-                        <div>22.08.20 ~ </div>
+                        <div>22.09.20 ~ </div>
                         <Skill>
                             <div>HTML5</div>
                             <div>CSS3</div>
