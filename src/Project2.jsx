@@ -5,6 +5,7 @@ import "swiper/css"
 import "swiper/css/pagination"
 import { Pagination } from "swiper"
 
+
 const Container = styled.div`
     padding-bottom: 20px;
 `
@@ -19,6 +20,31 @@ const Project1 = styled.div`
     margin: 0 0 100px 100px;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+`
+const Arrow = styled.div`
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: -120px;
+    left: 30%;
+`
+const Top = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    height: 50%;
+    font-size: 23px;
+    font-family: 'Cafe24Ssurround';
+`
+const Bottom = styled.div`
+    flex: 0 0 50%;
+    height: 50%;
+    display: flex;
+
+    img{
+        width: 50%;
+        transform: rotate(150deg);
+    }
 `
 const Box = styled.div`
     width: 38%;
@@ -62,6 +88,13 @@ const Project2 = () => {
     <Container>
         <Header>그 외</Header>
         <Project1>
+            <Arrow>
+                <Top>클릭해주세요!</Top>
+                <Bottom>
+                    <img src="images/arrow.png" alt='arrow' style={{transform: 'rotate(130deg)'}}></img>
+                    <img src="images/arrow.png" alt='arrow' style={{position: 'absolute', left: 50}}></img>
+                </Bottom>
+            </Arrow>
             <Box>
             <Swiper pagination={{clickable: true}} modules={[Pagination]}>
                 <SwiperSlide onClick={()=>{ window.open("http://3.34.255.132/musinsa");}} style={{cursor: 'pointer'}}>

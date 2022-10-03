@@ -8,7 +8,7 @@ import Project2 from './Project2'
 
 const Container = styled.div`
   width: 80%;
-  background-color: #DBE5DA;
+  background-color: #E5FFC8;
   margin: auto;
 `
 
