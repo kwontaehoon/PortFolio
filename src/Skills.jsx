@@ -113,21 +113,15 @@ const Skills = () => {
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
-                <Icon><img src="/images/git.png" alt='git'></img></Icon>
-                <SubCircle></SubCircle>
-            </Circle>
-            <Circle>
-                <Icon><img src="images/github.png" alt='github' style={{width: "100px"}}></img></Icon>
+                <Icon><img src="/images/tailwind.png" alt='tailwind' style={{width: "150px"}}></img></Icon>
+                
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
                 <Icon><img src="images/mysql.png" alt='mysql'></img></Icon>
                 <SubCircle></SubCircle>
             </Circle>
-            <Circle>
-                <Icon><img src="/images/mongoDB.png" alt='mongoDB'></img></Icon>
-                <SubCircle></SubCircle>
-            </Circle>
+            
             <Circle>
                 <Icon><img src="images/node.png" alt='node'></img></Icon>
                 <SubCircle></SubCircle>
@@ -142,6 +136,14 @@ const Skills = () => {
             </Circle>
             <Circle>
                 <Icon><img src="images/aws.png" alt='aws' style={{width: "100px"}}></img></Icon>
+                <SubCircle></SubCircle>
+            </Circle>
+            <Circle>
+                <Icon><img src="/images/git.png" alt='git'></img></Icon>
+                <SubCircle></SubCircle>
+            </Circle>
+            <Circle>
+                <Icon><img src="images/github.png" alt='github' style={{width: "100px"}}></img></Icon>
                 <SubCircle></SubCircle>
             </Circle>
         </Main>

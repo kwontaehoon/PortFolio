@@ -153,7 +153,7 @@ const Project = () => {
                         <p style={{fontWeight: 'bold', lineHeight: '30px'}}>
                         React 입문으로 첫 번째 프로젝트에서는 이미 상용화 된 영화를 주제로 영화 웹 사이트를 제작했습니다.
                         영화, 날짜, 인원 수 등을 선택하면 <br/> 결제금액이 나오기까지의 예매페이지를 맡았습니다. <br/>
-                        예매페이지의 논리적인 구조를 다양한 React 훅을 사용하여 <br/> 구현하였고,
+                        예매페이지의 논리적인 구조를 다양한 React Hook을 사용하여 <br/> 구현하였고,
                         비록 백엔드 부분이 없지만 전반적인 React의 구조, <br/> git을 활용한 협업구조까지 다양하게
                         학습 할 수 있었습니다.
                         </p>
@@ -213,9 +213,9 @@ const Project = () => {
                     <div style={{fontSize: 20}}>CHK-Cafe</div>
                     <Content>
                         <p style={{fontWeight: 'bold', lineHeight: '30px'}}>
-                        두 번째 프로젝트에서는 백엔드를 포함한 카페 웹 사이트를 <br/> 제작했습니다.
-                        최대한 서버를 활용하기위해서 다음과 카카오 API로 <br/> 로그인/회원가입 페이지 구현과 DB(MySQL) 연결을 통한
-                        게시판, <br /> 댓글, 회원등급제 구현, 그리고 AWS로 클라우드 서버 구축부터 <br/>배포까지 백엔드 역할을 중심으로 수행했습니다. <br/>
+                        두 번째 프로젝트에서는 백엔드를 포함하기위해 카페를 주제로 한 <br/> 웹 사이트를 한 개 더 제작했습니다.
+                        최대한 서버를 활용하기위해서<br/> 다음과 카카오 API로 로그인/회원가입 페이지 구현과 DB(MySQL)<br/> 연결을 통한
+                        게시판, 댓글, 회원등급제 구현, NodeJS / ExpressJS<br/> 서버 구축부터 배포까지 백엔드 역할을 중심으로 수행했습니다. <br/>
                         클라이언트와 서버간의 통신방법과 가상머신을 통한 인프라를 <br/> 이해하는데 큰 도움이 되었습니다.
                         </p>
                     </Content>
@@ -281,9 +281,9 @@ const Project = () => {
                     <div style={{fontSize: 20}}>My Tour</div>
                     <Content>
                         <p style={{fontWeight: 'bold', lineHeight: '30px'}}>
-                            세 번째 프로젝트에서는 React-Native 환경에서 간단한 관광 어플을 제작했습니다.
-                            React-Native 내부의 AsyncStorage와 DB(SQLite) 연결을 통해 관광지 위치에 따른 Google Maps와 검색 기능,
-                            주요 도시에 <br />  따른 날씨 앱, 좋아요 기능까지 가지각색으로 구현해봤습니다. <br />
+                            세 번째 프로젝트에서는 React-Native UI를 이해하기위해 간단한 관광 어플을 제작했습니다.
+                            React-Native 내부의 AsyncStorage와 DB(SQLite) 연결을 통해 관광지 위치에 따른 Google Maps와<br/> 검색 기능,
+                            주요 도시에 따른 날씨 앱, 좋아요 기능까지 가지각색으로 구현해봤습니다. <br />
                             프로젝트라고 하기엔 부족한 부분이 많지만 Android와 IOS를 동시<br/>개발 가능한 하이브리드 (크로스플랫폼) 개발 환경에 대한 전반적인<br/>
                             구조를 이해할 수 있었습니다.
                         </p>
