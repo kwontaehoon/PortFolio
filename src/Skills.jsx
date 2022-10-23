@@ -113,11 +113,6 @@ const Skills = () => {
                 <SubCircle></SubCircle>
             </Circle>
             <Circle>
-                <Icon><img src="/images/tailwind.png" alt='tailwind' style={{width: "150px"}}></img></Icon>
-                
-                <SubCircle></SubCircle>
-            </Circle>
-            <Circle>
                 <Icon><img src="images/mysql.png" alt='mysql'></img></Icon>
                 <SubCircle></SubCircle>
             </Circle>

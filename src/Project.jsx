@@ -229,7 +229,7 @@ const Project = () => {
                             <div>Bootstrap</div>
                             <div>React</div>
                             <div>Styled Component</div>
-                            <div>Node</div>
+                            <div>NodeJS</div>
                             <div>Restful API</div>
                             <div>MySQL</div>
                             <div>AWS(EC2, RDS)</div>
@@ -296,12 +296,11 @@ const Project = () => {
                             <div>JavaScript</div>
                             <div>Android Studio</div>
                             <div>React-Native</div>
-                            <div>Restfull API</div>
                             <div>SQLite</div>
                             <div>Git</div>
                         </Skill>
                         <Address>
-                            <button onClick={()=>{ window.open("https://github.com/kwontaehoon/Project");}}>GitHub</button>
+                            <button onClick={()=>{ window.open("https://github.com/kwontaehoon/My-Tour");}}>GitHub</button>
                         </Address>
                     </Summary>
                 </InfoBox2>
@@ -330,15 +329,15 @@ const Project = () => {
                             <div>HTML5</div>
                             <div>CSS3</div>
                             <div>JavaScript</div>
-                            <div>TailWind</div>
                             <div>Android Studio</div>
                             <div>React-Native</div>
-                            <div>Restfull API</div>
+                            <div>SQLite</div>
                             <div>Firebase</div>
                             <div>Figma</div>
+                            <div>Git</div>
                         </Skill>
                         <Address>
-                            <button onClick={()=>{ window.open("https://github.com/kwontaehoon/Project");}}>GitHub</button>
+                            <button onClick={()=>{ window.open("https://github.com/kwontaehoon/Golf_App");}}>GitHub</button>
                         </Address>
                     </Summary>
                 </InfoBox2>
