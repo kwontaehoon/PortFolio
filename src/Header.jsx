@@ -6,7 +6,6 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid black;
     font-size: 50px;
 `
 const Header = () => {

@@ -308,8 +308,41 @@ const Project = () => {
             <Project1 data-aos="" data-aos-duration="">
                 <InfoBox>
                 <Swiper pagination={{clickable: true}} modules={[Pagination]}>
+                <SwiperSlide>
+                        <ImageBox><img src="images/golf1.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
                     <SwiperSlide>
-                        <ImageBox>제작중</ImageBox>
+                        <ImageBox><img src="images/golf2.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf3.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf4.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf5.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf6.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf7.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf8.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf9.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf10.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf11.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ImageBox><img src="images/golf12.png" alt='cafe'></img></ImageBox>
                     </SwiperSlide>
                 </Swiper>
                 </InfoBox>
