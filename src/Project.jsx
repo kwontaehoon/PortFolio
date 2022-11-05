@@ -225,7 +225,6 @@ const Project = () => {
                             <div>HTML5</div>
                             <div>CSS3</div>
                             <div>JavaScript</div>
-                            <div>Jquery</div>
                             <div>Bootstrap</div>
                             <div>React</div>
                             <div>Styled Component</div>
@@ -364,6 +363,7 @@ const Project = () => {
                             <div>JavaScript</div>
                             <div>Android Studio</div>
                             <div>React-Native</div>
+                            <div>Redux</div>
                             <div>SQLite</div>
                             <div>Firebase</div>
                             <div>Figma</div>
