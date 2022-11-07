@@ -282,8 +282,8 @@ const Project = () => {
                         <p style={{fontWeight: 'bold', lineHeight: '30px'}}>
                             세 번째 프로젝트에서는 React-Native UI를 이해하기위해 간단한 관광 어플을 제작했습니다.
                             React-Native 내부의 AsyncStorage와 DB(SQLite) 연결을 통해 관광지 위치에 따른 Google Maps와<br/> 검색 기능,
-                            주요 도시에 따른 날씨 앱, 좋아요 기능까지 가지각색으로 구현해봤습니다. <br />
-                            프로젝트라고 하기엔 부족한 부분이 많지만 Android와 IOS를 동시<br/>개발 가능한 하이브리드 (크로스플랫폼) 개발 환경에 대한 전반적인<br/>
+                            주요 도시에 따른 날씨 앱, 좋아요 기능까지 가지각색으로 구현해봤습니다.
+                            프로젝트라고 하기엔 부족한 부분이 많지만 <br /> Android와 IOS를 동시 개발 가능한 하이브리드 (크로스플랫폼) 개발 환경에 대한 전반적인
                             구조를 이해할 수 있었습니다.
                         </p>
                     </Content>
@@ -350,13 +350,17 @@ const Project = () => {
                     <Content>
                         <p style={{fontWeight: 'bold', lineHeight: '30px'}}>
                             네 번째 프로젝트에서는 세 번째 프로젝트를 바탕으로 골프 부킹 <br/>
-                            어플을 제작 중 입니다. Firebase의 클라우드 호스팅을 통한 Auth, <br/>실시간 데이터베이스를 이용한 채팅서비스,
-                            Storage의 갤러리까지<br/> 계획하고 있습니다. 
+                            애플리케이션을 제작했습니다. Firebase의 클라우드 호스팅을 통한 Auth, 실시간 데이터베이스를 이용한 채팅서비스,
+                            Storage의 갤러리, FireStore DB와 SQLite DB의 연결로 실시간 예약 및 방 생성/참여, <br />
+                            게시판 생성 등 실제로 구동 가능하게 만들어봤습니다. <br/>
+                            클라우드 서비스 형태로 제공하는 Firebase 플랫폼과 모바일에서 사용할 수 있는 여러 라이브러리들을
+                            배울 수 있었습니다.  
+
 
                         </p>
                     </Content>
                     <Summary>
-                        <div>22.09.20 ~ </div>
+                        <div>22.09.20 ~ 22.10.30</div>
                         <Skill>
                             <div>HTML5</div>
                             <div>CSS3</div>

@@ -5,10 +5,10 @@ import About from './About'
 import Skills from './Skills'
 import Project from './Project'
 import Project2 from './Project2'
+import Education from './Education'
 
 const Container = styled.div`
   width: 80%;
-  background-color: #E5FFC8;
   margin: auto;
 `
 
@@ -134,6 +134,7 @@ const App = () => {
 	  	<Header />
     	<About />
       <Skills />
+      <Education />
       <Project />
       <Project2 />
     </Container>

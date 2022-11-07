@@ -21,7 +21,7 @@ const Title2 = styled.div`
     font-weight: bold;
 `
 const Intro = styled.div`
-    height: 550px;
+    height: 250px;
     display: flex;
     margin-top: 20px;
 `
@@ -55,7 +55,6 @@ const LeftBox = styled.div`
     width: 50%;
     height: 200px;
     padding: 20px;
-    font-family: KOTRA_BOLD-Bold;
 `
 const SubTitle = styled.div`
     height: 35px;
@@ -91,31 +90,19 @@ const About = () => {
             <Title2>프로필</Title2>
         </Header>
         <Intro>
-            <Image>
-                <SubImage>
-                    <img src="images/프로필.jpg" style={{width: 180}}></img>
-                </SubImage>
-            </Image>
             <Content>
-                <p style={{fontWeight: 'bold', lineHeight: '30px'}}>
-                안녕하세요! 프론트엔드 개발자를 희망하는 권태훈입니다.
-                학교에서 전공을 통해 프로그래밍 지식을 쌓고 <br/>
-                국비지원교육 이젠 컴퓨터 학원에서 주도한 React & NodeJS 기반 풀스택 과정에 참가해<br/>
-                프론트부터 배포까지 다양하게 학습했습니다.<br/>
+                <p style={{fontWeight: 'bold', lineHeight: '25px', fontSize: '14px'}}>
+                
+ 
+ 
+                <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 안녕하세요! 프론트엔드 개발자를 희망하는 권태훈입니다. <br/>
                 <br/>
-                1. 협업과 커뮤니케이션을 중요하게 생각합니다.<br/>
-                팀장의 포지션으로 4명의 팀과함께 git을 활용하여 스터디를 주도적으로
-                진행했습니다.<br/> 그 결과 프로젝트를 원활하게 진행할 수 있었고 
-                첫 번째 프로젝트에서 100이상의 커밋을 기록할 수 있었습니다.<br/>
+                <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 성실하게 살기위해 1일 1커밋 이상을 준수하고 있습니다.  <br/>
                 <br/>
-                2. 알고리즘 문제에 대한 리팩토링을 좋아합니다.<br/>
-                자바스크립트 ES6+ 문법을 활용하여 스스로 논리적인 사고를 키우려고 노력했습니다.<br/>
-                처음에 풀었던 방식과 다른 방식으로 접근하려고 했으며 되도록 1일 1문제를 풀기위해<br/>
-                git hub 블로그를 이용하여 간단한 문제 기술 블로그를 제작했습니다.<br/>
+                <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 국비지원교육 수료 후, 지속적으로 공부하기위해 개인 프로젝트를 병행하고 있습니다. <br/>
                 <br/>
-                학원 수료 이후, 한국인지 과학협회에서 주도하는 컨소시엄
-                파트너십에 참가해 React Native를 이용한<br/> 앱 프로젝트를 진행중입니다.
-                1일1커밋을 준수하며 다양한 경험을 하기위해 노력하고있습니다.<br/>
+                <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 새로운 스킬을 배울 때 장단점을 따지고 어떻게하면 효율적으로 사용할 수 있는지 고민합니다.  <br/>
+                <br/>
                 </p>
             </Content>
         </Intro>
