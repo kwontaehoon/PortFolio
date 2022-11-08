@@ -53,7 +53,7 @@ const Main2 = styled(Main1)``
 
 const LeftBox = styled.div`
     width: 50%;
-    height: 180px;
+    height: 160px;
     padding: 20px;
 `
 const SubTitle = styled.div`
@@ -100,7 +100,7 @@ const About = () => {
                 <br/>
                 <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 국비지원교육 수료 후, 지속적으로 개발하기위해 개인 공부와 프로젝트를 병행하고 있습니다. <br/>
                 <br/>
-                <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 새로운 스킬을 배울 때 장단점을 따지고 어떻게하면 효율적으로 사용할 수 있는지 고민합니다.  <br/>
+                <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 새로운 스킬을 배울 때 장단점을 따지고 리팩토링을 좋아합니다.  <br/>
                 <br/>
                 </p>
             </Content>
@@ -127,10 +127,9 @@ const About = () => {
         </Main1>
         <Main2>
             <RightBox style={{width: '47%'}}>
-                <SubTitle><i className="fa-brands fa-github"></i> Chnnel</SubTitle>
+                <SubTitle><i className="fa-brands fa-github"></i> Github</SubTitle>
                 <SubContent2>
-                    <Link onClick={()=>{ window.open("https://github.com/kwontaehoon");}}>Github: https://github.com/kwontaehoon</Link>
-                    <Link onClick={()=>{ window.open("https://kwontaehoon.github.io");}}>Blog: https://kwontaehoon.github.io</Link>
+                    <Link onClick={()=>{ window.open("https://github.com/kwontaehoon");}}>https://github.com/kwontaehoon</Link>
                 </SubContent2>
             </RightBox>
         </Main2>
