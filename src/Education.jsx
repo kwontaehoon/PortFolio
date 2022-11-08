@@ -61,7 +61,7 @@ const Education = () => {
                 </Left1>
                 <Right1>
                     <ul>
-                        <li>Pront부터 Back까지의 Fullstack 교육과정 (6개월)</li>
+                        <li>Front부터 Back까지의 Fullstack 교육과정 (6개월)</li>
                         <li>Javascript (ES6+) / Typescript 문법 학습</li>
                         <li>ReactJS / NodeJS / ExpressJS 서버 구축</li>
                         <li>HTTP, RESTful API 웹 서버 구현 </li>
