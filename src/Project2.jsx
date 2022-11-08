@@ -121,10 +121,6 @@ const Project2 = () => {
                     <ImageBox><img src="images/weather_app.png" alt='weather_app' style={{width: '60%', height: '80%', borderRadius: 10}}></img></ImageBox>
                     <ContentBox>OpenWeather과 Cordova를 이용한 <br /> 날씨 APP 입니다. </ContentBox>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <ImageBox><img src="images/여행경보.png" alt='여행경보' style={{height: '50%'}}></img></ImageBox>
-                    <ContentBox>공공 데이터포털에서 받아온 데이터로 <br/> 만든 나라별 여행 경보 API 입니다.</ContentBox>
-                </SwiperSlide>
             </Swiper>
             </Box>
            

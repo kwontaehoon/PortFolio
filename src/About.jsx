@@ -53,33 +53,32 @@ const Main2 = styled(Main1)``
 
 const LeftBox = styled.div`
     width: 50%;
-    height: 200px;
+    height: 180px;
     padding: 20px;
 `
 const SubTitle = styled.div`
     height: 35px;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid grey;
+    border-radius: 2px;
     margin-bottom: 20px;
 `
 const SubContent = styled.div`
-    height: 150px;
 
     div{
         margin-top: 10px;
     }
 `
-const SubContent2 = styled(SubContent)`
-    border-radius: 15px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    &:hover{
-        background: white;
+const SubContent2 = styled.div`
+    p{
+        font-size: 12px;
     }
 `
 const RightBox = styled(LeftBox)``
+
+const Link = styled.div`
+    margin-bottom: 10px;
+    cursor: pointer;
+`
 
 const About = () => {
 
@@ -99,7 +98,7 @@ const About = () => {
                 <br/>
                 <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 성실하게 살기위해 1일 1커밋 이상을 준수하고 있습니다.  <br/>
                 <br/>
-                <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 국비지원교육 수료 후, 지속적으로 공부하기위해 개인 프로젝트를 병행하고 있습니다. <br/>
+                <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 국비지원교육 수료 후, 지속적으로 개발하기위해 개인 공부와 프로젝트를 병행하고 있습니다. <br/>
                 <br/>
                 <i class="fa-solid fa-check" style={{fontSize: '15px'}}/> 새로운 스킬을 배울 때 장단점을 따지고 어떻게하면 효율적으로 사용할 수 있는지 고민합니다.  <br/>
                 <br/>
@@ -127,18 +126,13 @@ const About = () => {
             </RightBox>
         </Main1>
         <Main2>
-            <RightBox>
-                <SubTitle><i className="fa-brands fa-github"></i> 깃허브</SubTitle>
-                <SubContent2 onClick={()=>{ window.open("https://github.com/kwontaehoon");}}>
-                    <p>https://github.com/kwontaehoon</p>
+            <RightBox style={{width: '47%'}}>
+                <SubTitle><i className="fa-brands fa-github"></i> Chnnel</SubTitle>
+                <SubContent2>
+                    <Link onClick={()=>{ window.open("https://github.com/kwontaehoon");}}>Github: https://github.com/kwontaehoon</Link>
+                    <Link onClick={()=>{ window.open("https://kwontaehoon.github.io");}}>Blog: https://kwontaehoon.github.io</Link>
                 </SubContent2>
             </RightBox>
-            <LeftBox>
-                <SubTitle><i className="fa-brands fa-blogger-b"></i> 블로그</SubTitle>
-                <SubContent2 onClick={()=>{ window.open("https://kwontaehoon.github.io");}}>
-                    <p>https://kwontaehoon.github.io</p>
-                </SubContent2>
-            </LeftBox>
         </Main2>
     </Container>
   )

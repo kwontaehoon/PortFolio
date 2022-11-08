@@ -50,7 +50,7 @@ const Education = () => {
   return (
     <Container>
         <Header>
-            <Title>Educations</Title>
+            <Title>Education</Title>
             <Title2>교육</Title2>
         </Header>
         <Main>
@@ -61,12 +61,12 @@ const Education = () => {
                 </Left1>
                 <Right1>
                     <ul>
-                        <li>퍼블리셔부터 백엔드까지의 풀스택 교육과정 (6개월)</li>
+                        <li>Pront부터 Back까지의 Fullstack 교육과정 (6개월)</li>
                         <li>Javascript (ES6+) / Typescript 문법 학습</li>
                         <li>ReactJS / NodeJS / ExpressJS 서버 구축</li>
                         <li>HTTP, RESTful API 웹 서버 구현 </li>
                         <li>MySQL DB 연동</li>
-                        <li>OpenWeather API를 이용한 날씨 프로젝트</li>
+                        <li>OpenWeather API를 이용한 날씨 프로젝트 제작</li>
                     </ul>
                 </Right1>
             </Box1>
@@ -80,7 +80,7 @@ const Education = () => {
                         <li>React Native 앱개발 프로젝트 (2개월)</li>
                         <li>React Native 크로스 플랫폼 구조 이해</li>
                         <li>골프장 공공 API 연동</li>
-                        <li>SQLite, Firebase AUTH / RealTime DB / Storage 연동</li>
+                        <li>SQLite, Firebase Auth / RealTime DB / Storage 연동</li>
                     </ul>
                 </Right1>
             </Box1>
