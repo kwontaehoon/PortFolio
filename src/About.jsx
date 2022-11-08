@@ -64,21 +64,11 @@ const SubTitle = styled.div`
 `
 const SubContent = styled.div`
 
-    div{
+    li{
         margin-top: 10px;
     }
 `
-const SubContent2 = styled.div`
-    p{
-        font-size: 12px;
-    }
-`
 const RightBox = styled(LeftBox)``
-
-const Link = styled.div`
-    margin-bottom: 10px;
-    cursor: pointer;
-`
 
 const About = () => {
 
@@ -109,28 +99,32 @@ const About = () => {
             <LeftBox>
                 <SubTitle><i className="fa-solid fa-circle-info"></i> 인포</SubTitle>
                 <SubContent>
-                    <div>- 이름: 권태훈</div>
-                    <div>- 생년월일: 97.07.25</div>
-                    <div>- 전화번호: 010 6672 4228</div>
-                    <div>- 이메일: gju04195@gmail.com</div>
+                    <ul>
+                        <li>이름: 권태훈</li>
+                        <li>생년월일: 97.07.25</li>
+                        <li>전화번호: 010 6672 4228</li>
+                        <li>이메일: gju04195@gmail.com</li>
+                    </ul>
                 </SubContent>
             </LeftBox>
             <RightBox>
                 <SubTitle><i className="fa-solid fa-pencil"></i> 자격증</SubTitle>
                 <SubContent>
-                    <div>- 정보처리기사 (21.03.07) 실기 준비중</div>
-                    <div>- 정보처리산업기사 (19.01.03) 합격</div>
-                    <div>- 컴퓨터활용능력 1급 (21.08.05) 실기 준비중</div>
-                    <div>- 네트워크 관리사 2급 (18.08.17) 합격</div>
+                    <li>정보처리기사 (21.03.07) 실기 준비중</li>
+                    <li>정보처리산업기사 (19.01.03) 합격</li>
+                    <li>컴퓨터활용능력 1급 (21.08.05) 실기 준비중</li>
+                    <li>네트워크 관리사 2급 (18.08.17) 합격</li>
                 </SubContent>
             </RightBox>
         </Main1>
         <Main2>
             <RightBox style={{width: '47%'}}>
                 <SubTitle><i className="fa-brands fa-github"></i> Github</SubTitle>
-                <SubContent2>
-                    <Link onClick={()=>{ window.open("https://github.com/kwontaehoon");}}>https://github.com/kwontaehoon</Link>
-                </SubContent2>
+                <SubContent>
+                    <ul>
+                        <li onClick={()=>{ window.open("https://github.com/kwontaehoon");}} style={{cursor: 'pointer'}}>https://github.com/kwontaehoon</li>
+                    </ul>
+                </SubContent>
             </RightBox>
         </Main2>
     </Container>
