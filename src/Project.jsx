@@ -323,6 +323,9 @@ const Project = () => {
                         <ImageBox><img src="images/golf5.png" alt='cafe'></img></ImageBox>
                     </SwiperSlide>
                     <SwiperSlide>
+                        <ImageBox><img src="images/golf13.png" alt='cafe'></img></ImageBox>
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <ImageBox><img src="images/golf6.png" alt='cafe'></img></ImageBox>
                     </SwiperSlide>
                     <SwiperSlide>
